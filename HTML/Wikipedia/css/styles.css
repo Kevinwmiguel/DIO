@@ -11,6 +11,51 @@ a { color:blue; text-decoration: none;}
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+
+/*TABLE*/
+.Sonictable{
+    border: 1px solid #040404;
+}
+.Sonictable th{
+    border: 1px solid #ccc;
+}
+
+
+
+table > tbody > tr {
+    display: flex;
+    flex-flow: row nowrap;
+} 
+table > tbody > tr > td{
+    display: flex;
+    flex: 1 0;
+    margin: 5px;
+} 
+.logoimg {
+    left: 0;
+    right: 0;
+} 
+
+
+
+#imagemsonic{
+    width: 230px;
+}
+
+table tbody tr th {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+/*TABLE*/
 .content {
     max-width: 1440px;
     margin: auto;
